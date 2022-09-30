@@ -1,0 +1,8 @@
+.exercise .text-box {
+    background: rgba(233, 244, 255, 0.858);
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}

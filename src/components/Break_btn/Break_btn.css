@@ -1,0 +1,14 @@
+.break-btn {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.break-btn:hover {
+    background-color: skyblue !important;
+}
+/* .user-more-info {
+    display: flex;
+    justify-content: space-around;
+} */
