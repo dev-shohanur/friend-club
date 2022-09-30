@@ -14,7 +14,7 @@ const Nav = (props) => {
         localStorage.setItem('breakTime', props);
         setBreakTime(JSON.parse(localStorage.getItem('breakTime')));
     };
-    const notify = () => toast("Wow Activity Completed!");
+    const notify = () => toast("Wow Activity Completed! ");
     return (
         <div className='nav-bar'>
             <UserInfo></UserInfo>
