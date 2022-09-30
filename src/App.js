@@ -17,17 +17,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container">
       <div className="row ">
       <div className="activetis-container col-6 col-md-9">
-      <TopNave></TopNave>
-        <h2>MD Shohanur Rahman</h2>
-        <Activets handlerAddToTime={handlerAddToTime}></Activets>
+          <div className="container">
+            <TopNave></TopNave>
+            <Activets handlerAddToTime={handlerAddToTime}></Activets>
+      </div>
       </div>
       <div className="user-container col-6 col-md-3">
         <Nav
           totalTime={cart}></Nav>
-      </div>
       </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ const UserInfo = () => {
                 </div>
             </div>
             <div className="user-more-info mt-4  row d-flex justify-content-around">
-                <h5 className='ms-2 col-md-3 col-sm-2 col-6'>75<small>kg</small><br />
+                <h5 className='ms-2 col-md-3 col-sm-2 col-6'>50<small>kg</small><br />
                     <span>Weight</span></h5>
                 <h5 className='ms-2 col-md-3 col-sm-2 col-6'>6.3 <br />
                     <span>Height</span></h5>

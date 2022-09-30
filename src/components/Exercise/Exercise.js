@@ -10,14 +10,14 @@ const Exercise = (props) => {
     }
     return (
         <div>
-            <h5>Exercise Details</h5>
+            <h5 className='mt-4 mb-3'>Exercise Details</h5>
             <div className="exercise">
                 <div className="text-box mb-3">
                     <h5>Exercise time</h5>
                     <small>{props.totalTime}s</small>
                 </div>
                 <div className="text-box mb-3">
-                    <h5>Exercise time</h5>
+                    <h5>Break time</h5>
                     <small>{number}s</small>
                 </div>
             </div>

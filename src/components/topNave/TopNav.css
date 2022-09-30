@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-.logo {
-    height: 200px;
+.logo img{
+    height: 80px;
     width: auto;
+    margin-top: 10px;
 }

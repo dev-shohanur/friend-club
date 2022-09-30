@@ -8,6 +8,7 @@ const TopNave = () => {
             <nav>
                 <div className="logo">
                     <img src={logo} alt="" />
+                    <h2 className='text-primary'>Our Friends Club</h2>
                 </div>
             </nav>
         </div>

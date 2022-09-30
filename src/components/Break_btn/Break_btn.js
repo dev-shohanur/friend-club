@@ -10,7 +10,7 @@ const Break_btn = (props) => {
     }, []);
     return (
         <div>
-            <h5>Add A Break</h5>
+            <h5 className='mt-4'>Add A Break</h5>
             <div className="user-more-info mt-4 row d-flex justify-content-around">
             {
                 btnValues.map(btnValue => 
