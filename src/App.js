@@ -6,6 +6,7 @@ import Break_btn from './components/Break_btn/Break_btn';
 import Nav from './components/Nav/Nav';
 import { useState } from 'react';
 import TopNave from './components/topNave/TopNave';
+import Blog from './components/Blog/Blog';
 
 function App() {
   const [cart, setCart] = useState(0);
@@ -22,6 +23,7 @@ function App() {
           <div className="container">
             <TopNave></TopNave>
             <Activets handlerAddToTime={handlerAddToTime}></Activets>
+            <Blog></Blog>
       </div>
       </div>
       <div className="user-container col-6 col-md-3">
