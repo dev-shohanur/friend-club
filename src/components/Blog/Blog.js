@@ -6,7 +6,7 @@ const Blog = () => {
             <h3 className='text-center mt-5 pt-5 mb-5'>Some Important Question and Answer</h3>
             <div className="blogs ms-4">
                 <div className="blog">
-                    <h4>How does React Work?</h4>
+                    <h4>How does React Work? </h4>
                     <p>ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
                 </div>
                 <div className="blog">
