@@ -4,9 +4,11 @@
     display: flex;
     justify-content: center;
     background-color: #fff;
+    border: 1px solid gray;
 }
 .break-btn:hover {
-    background-color: skyblue !important;
+    background-color: #0d6efd !important;
+    color: #fff !important;
 }
 /* .user-more-info {
     display: flex;

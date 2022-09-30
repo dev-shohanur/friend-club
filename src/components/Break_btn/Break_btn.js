@@ -14,7 +14,7 @@ const Break_btn = (props) => {
             <div className="user-more-info mt-4 row d-flex justify-content-around">
             {
                 btnValues.map(btnValue => 
-                    <button onClick={() => props.handelrAddToBreakTime(btnValue.time)} className='btn rounded-circle break-btn col-md-4 ms-1 '><span id='btn-value'>{btnValue.time}</span>s</button>
+                    <button onClick={() => props.handelrAddToBreakTime(btnValue.time)} className='btn rounded-circle break-btn col-md-4 ms-1 d-flex align-items-center'><span id='btn-value'>{btnValue.time}</span>s</button>
                         
                         )
                     }
